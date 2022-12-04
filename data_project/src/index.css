@@ -150,14 +150,16 @@
 
 @media only screen and (max-width: 600px) {
   .picker {
-    margin: auto;
-    width: 400px !important;
+    position: relative !important;
+    width: 300px !important;
     height: 150px !important;
   }
   .pickertext{
     position: relative !important;
-    left: 0px !important;
     font-size: 40px !important;
+  }
+  .pickeredit{
+    width: 300px !important;
   }
   .model {
     height : 700px !important;
