@@ -11,7 +11,7 @@ We realized that React, by default, implements the decorator design pattern thro
 
 We wanted to use the full abilities of the decorator design pattern and implement it in a way the user can see it, hence why we thought of an online garage. The CycleIn application allows you to decorate your own bicycle and explore several features. It also allows the user to be fully creative with his color choices and gives him the options of a few add-ons.
 
-To implement the project, a 3D design of a bike was first created with the add-ons, and then exported to a glb file (gltf 2.0). Then, using the gltfjsx library, we transformed it into a javascript file that contained the 3D model.
+To implement the project, a 3D design of a bike was first created with the add-ons, and then exported to a glb file (gltf 2.0). Then, using the gltfjsx library, we transformed it into a javascript file that contained the 3D model. We then started using Three.js to render the 3D model.
 
 Since a 3D model is made up of several components (called meshes or objects in 3D design), our main data structure was an array of these meshes, where each mesh had an ID, a material, a geometry, material color, and so on. We then added two functions that interact with this array by calling the function again through a UseCallback (changes only when the inputs are changed.) This is an example of utilising the decorator design pattern.
 
