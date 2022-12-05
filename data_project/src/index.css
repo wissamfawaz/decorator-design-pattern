@@ -148,7 +148,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   .picker {
     position: relative !important;
     width: 300px !important;
@@ -179,7 +179,7 @@
     display : none !important;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
   .model{
     height : 700px !important;
     width: 100% !important;
