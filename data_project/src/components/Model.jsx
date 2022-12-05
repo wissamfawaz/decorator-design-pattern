@@ -94,6 +94,9 @@ function Model() {
         <ContactShadows rotation-x={Math.PI / 2} position={[0, -0.8, 0]} opacity={0.25} width={10} height={10} blur={1.5} far={0.8} />
         <OrbitControls />
       </Canvas>
+      <div className = "mainButton" style = {{display: 'flex', position: 'absolute', right: '30px', marginTop: '50px'}} >
+      <button disabled = {true} style={{marginRight : "20px", backgroundColor : "white", color : "black", borderRadius : "20px", padding : "10px", fontSize : "20px", fontWeight : "500"}}>Kindly do not add another item before removing the original one</button>
+      </div>
       </div>
       <div className="pickerandbuttons" style = {{ width: "1300px", height: "400px", marginTop: '30px'}} >
       <div className = "buttons1" style = {{display: 'flex', position: 'absolute', right: '30px', marginTop: '50px'}}>
